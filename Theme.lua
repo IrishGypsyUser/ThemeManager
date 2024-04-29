@@ -14,6 +14,7 @@ local ThemeManager = {} do
 		['Ubuntu'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
 		['Quartz'] 			= { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232330","AccentColor":"426e87","BackgroundColor":"1d1b26","OutlineColor":"27232f"}') },
 		['skeet']		= { 9, httpService:JSONDecode('{"FontColor":"919191","MainColor":"101010","AccentColor":"9CB819","BackgroundColor":"111111","OutlineColor":"2D2D2D"}') },
+		['pink']		= { 10, httpService:JSONDecode('{"FontColor":"c5c5c5","MainColor":"0F0F0F","AccentColor":"ffc6fe","BackgroundColor":"0f0f0f","OutlineColor":"191919"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
